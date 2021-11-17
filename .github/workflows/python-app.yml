@@ -6,6 +6,7 @@ name: Noti Zoom Study
 on:
   schedule:
     - cron: "0 11 ? * SUN"
+  workflow_dispatch:
 
 jobs:
   build:
