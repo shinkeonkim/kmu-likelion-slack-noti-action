@@ -6,7 +6,8 @@ load_dotenv(verbose=True)
 
 ZOOM_STUDY_WEBHOOK_URL = os.environ.get("ZOOM_STUDY_WEBHOOK_URL")
 
-ZOOM_STUDY_NOTICE = """1. 한 주동안 달성하고자 하는 목표를 적어주세요.
+ZOOM_STUDY_NOTICE = """<!channel> 이번주가 지났습니다.
+1. 한 주동안 달성하고자 하는 목표를 적어주세요.
 2. 지난 일주일동안의 목표 달성률과 그 이유를 적어주세요
 
 [예시]
