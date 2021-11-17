@@ -1,4 +1,4 @@
-# noti-slack-flow
+# kmu-likelion-slack-noti-action
 
 ## 설명
 
