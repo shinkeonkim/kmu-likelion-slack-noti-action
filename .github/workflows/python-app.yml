@@ -32,4 +32,4 @@ jobs:
     - name: Noti
       run: python main.py
       env:
-        ZOOM_STUDY_WEBHOOK_URL: ${{ ZOOM_STUDY_WEBHOOK_URL }}
+        ZOOM_STUDY_WEBHOOK_URL: ${{ secrets.ZOOM_STUDY_WEBHOOK_URL }}
